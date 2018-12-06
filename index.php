@@ -90,7 +90,181 @@
 				</div><!-- navbar-collapse collapse ends -->
 			</div><!-- container ends -->			
 		</div><!-- navbar navbar-default ends -->
-		
+
+
+		<div class="container" id="slider">
+			<div class="col-md-12">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1" ></li>
+						<li data-target="#myCarousel" data-slide-to="2" ></li>
+						<li data-target="#myCarousel" data-slide-to="3" ></li>
+					</ol><!-- carousel-indicators ends -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-75" src="admin_area/slides_images/slide1.jpg" alt="Slide1">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-75" src="admin_area/slides_images/slide2.jpg" alt="Slide2">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-75" src="admin_area/slides_images/slide3.jpg" alt="Slide3">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-75" src="admin_area/slides_images/slide4.jpg" alt="Slide4">
+						</div>
+					</div><!-- carousel-inner ends -->
+					<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+
+				</div><!-- carousel slider ends -->
+			</div><!-- col-md-12 ends -->
+		</div><!-- container ends -->
+
+		<div id="advantages">
+			<div class="container">
+				<div class="same-height-row row">
+					<div class="col-sm-4">
+						<div class="box same-height">
+							<div class="icon">
+								<i class="fa fa-tags"></i>
+							</div>
+							<h3>
+								<a href="#">We Love Our Costumer</a>
+							</h3>
+							<p>We are known to provide best possible service ever</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box same-height">
+							<div class="icon">
+								<i class="fa fa-heart"></i>
+							</div>
+							<h3>
+								<a href="#">Best Price</a>
+							</h3>
+							<p>You can check all others sites about the prices and than compare with us</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box same-height">
+							<div class="icon">
+								<i class="fa fa-shopping-bag"></i>
+							</div>
+							<h3>
+								<a href="#">100% satisfaction Guaranteed</a>
+							</h3>
+							<p>Free returns on everything for 3 months</p>
+						</div>
+					</div>
+				</div><!-- same-height-row ends -->
+			</div><!-- container ends -->
+		</div><!-- advantages ends -->
+
+		<div id="hot">
+			<div class="box">
+				<div class="container">
+					<div class="col-md-12">
+						<h2>latest This Week</h2>
+					</div>
+				</div>
+			</div><!-- box ends -->
+		</div><!-- hot ends -->
+
+		<div id="content" class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-light">View Details</a>
+								<a href="details.php" class="btn btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+
+				<div class="col-md-4 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-light">View Details</a>
+								<a href="details.php" class="btn btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+
+				<div class="col-md-4 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-light">View Details</a>
+								<a href="details.php" class="btn btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+
+				<div class="col-md-4 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-light">View Details</a>
+								<a href="details.php" class="btn btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+			</div> <!-- row ends -->
+		</div><!-- container ends -->
 		
 
 		<!-- Optional JavaScript -->
