@@ -1,0 +1,1 @@
+kerjakan ini juka laman utama sudah benar benar sesuai 

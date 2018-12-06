@@ -52,7 +52,7 @@
 					<div class="input-group">
 						<input type="text" name="email" class="form-control">
 						<div class="input-group-append">
-							<input type="submit" name="" value="subscribe" class="btn btn-secondary">
+							<input type="submit" name="" value="subscribe" class="btn btn-light">
 						</div>
 					</div>
 				</form><!-- form ends -->
@@ -69,3 +69,16 @@
 		</div><!-- row ends -->
 	</div><!-- container ends -->
 </div><!-- footer ends -->
+
+<div id="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="float-left"> &copy; 2018 Fajar Setiawan Siagian</p>
+			</div>
+			<div class="col-md-6">
+				<p class="float-right">Template By <a href="#">fajarsiagian</a></p>
+			</div>
+		</div>
+	</div><!-- container ends -->
+</div><!-- copyright ends -->

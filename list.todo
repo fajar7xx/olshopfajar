@@ -5,6 +5,8 @@ hal-hal penting:
 
  yang dikerjakan :
    ☐ pembuatan navbar berbasis bs4
+ 
+rancangan database :
 
 04 Theme structure with html5 & css3 And bs3:
   ✔ 049 lecturer 1 @done (18-11-30 23:31)
@@ -27,8 +29,8 @@ hal-hal penting:
   ☐ 66 lecturer 18 membuat footer php
   ☐ 67 lecturer 19
   ☐ 68 lecturer 20
-  ☐ 69 lecturer 21
-  ☐ 70 lecturer 22
+  ✔ 69 lecturer 21 footer @done (18-12-06 14:37)
+  ☐ 70 lecturer 22 @shop page pengerjaan
   ☐ 71 lecturer 23
   ☐ 72 lecturer 24
   ☐ 73 lecturer 25
@@ -60,3 +62,6 @@ hal-hal penting:
   ☐ 99 lecturer 51
 
 kendala selama belajar pada sub folder 4 :
+ ☐ perbaiki navbar sesuai struktur bs4
+ ☐ perbaiki slider sesuai b4
+ ☐ lihat class apkah itu class b3 atau b4 jikab3 sesuaikan dengan class b4
