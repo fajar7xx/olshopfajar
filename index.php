@@ -11,7 +11,7 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="styles/bootstrap.min.css" />
 		<!-- fontawesome -->
-		<link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css"/>
+		<link rel="stylesheet" href="fontawesome/web-fonts-with-css/css/fontawesome-all.min.css"/>
 		<!-- style.css -->
 		<link rel="stylesheet" type="text/css" href="styles/styles.css" />
 	</head>
@@ -180,7 +180,7 @@
 
 		<div id="content" class="container">
 			<div class="row">
-				<div class="col-md-4 col-sm-6 single">
+				<div class="col-md-3 col-sm-6 single">
 					<div class="product">
 						<a href="details.php">
 							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
@@ -191,8 +191,8 @@
 							</h3>
 							<p class="price">$50</p>
 							<p class="buttons">
-								<a href="details.php" class="btn btn-light">View Details</a>
-								<a href="details.php" class="btn btn-primary">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
 									<i class="fa fa-shopping-cart"></i>
 									Add to cart
 								</a>
@@ -201,7 +201,7 @@
 					</div> <!-- product ends -->
 				</div> <!-- col-sm-4 col-sm-6 single ends -->
 
-				<div class="col-md-4 col-sm-6 single">
+				<div class="col-md-3 col-sm-6 single">
 					<div class="product">
 						<a href="details.php">
 							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
@@ -212,8 +212,8 @@
 							</h3>
 							<p class="price">$50</p>
 							<p class="buttons">
-								<a href="details.php" class="btn btn-light">View Details</a>
-								<a href="details.php" class="btn btn-primary">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
 									<i class="fa fa-shopping-cart"></i>
 									Add to cart
 								</a>
@@ -222,7 +222,7 @@
 					</div> <!-- product ends -->
 				</div> <!-- col-sm-4 col-sm-6 single ends -->
 
-				<div class="col-md-4 col-sm-6 single">
+				<div class="col-md-3 col-sm-6 single">
 					<div class="product">
 						<a href="details.php">
 							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
@@ -233,8 +233,8 @@
 							</h3>
 							<p class="price">$50</p>
 							<p class="buttons">
-								<a href="details.php" class="btn btn-light">View Details</a>
-								<a href="details.php" class="btn btn-primary">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
 									<i class="fa fa-shopping-cart"></i>
 									Add to cart
 								</a>
@@ -243,7 +243,7 @@
 					</div> <!-- product ends -->
 				</div> <!-- col-sm-4 col-sm-6 single ends -->
 
-				<div class="col-md-4 col-sm-6 single">
+				<div class="col-md-3 col-sm-6 single">
 					<div class="product">
 						<a href="details.php">
 							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
@@ -254,8 +254,8 @@
 							</h3>
 							<p class="price">$50</p>
 							<p class="buttons">
-								<a href="details.php" class="btn btn-light">View Details</a>
-								<a href="details.php" class="btn btn-primary">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
 									<i class="fa fa-shopping-cart"></i>
 									Add to cart
 								</a>
@@ -263,9 +263,95 @@
 						</div> <!-- text ends -->
 					</div> <!-- product ends -->
 				</div> <!-- col-sm-4 col-sm-6 single ends -->
+
+				<div class="col-md-3 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+
+				<div class="col-md-3 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+
+				<div class="col-md-3 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+
+				<div class="col-md-3 col-sm-6 single">
+					<div class="product">
+						<a href="details.php">
+							<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid"/>
+						</a>
+						<div class="text">
+							<h3>
+								<a href="details.php">Marvel Black Kids Polo T-Shirt</a>
+							</h3>
+							<p class="price">$50</p>
+							<p class="buttons">
+								<a href="details.php" class="btn btn-sm btn-light">View Details</a>
+								<a href="details.php" class="btn btn-sm btn-primary">
+									<i class="fa fa-shopping-cart"></i>
+									Add to cart
+								</a>
+							</p>
+						</div> <!-- text ends -->
+					</div> <!-- product ends -->
+				</div> <!-- col-sm-4 col-sm-6 single ends -->
+			
 			</div> <!-- row ends -->
 		</div><!-- container ends -->
 		
+		<?php include_once "includes/footer.php"; ?>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
