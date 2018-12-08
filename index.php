@@ -39,11 +39,10 @@
 			</div><!-- container end -->
 		</div><!-- top end -->
 		
-		<div class="navbar navbar-default" id="navbar">
+	<!-- 	<div class="navbar navbar-default" id="navbar">
 			<div class="container">
 				<div class="navbar-header">
 					<a href="index.php" class="navbar-brand home">
-						<!-- <img src="images/logo.png" alt="ecommerce" class="hidden-xs" /> -->
 						fajarStore
 					</a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -54,7 +53,7 @@
 						<span class="sr-only">Toggle Search</span>
 						<i class="fa fa-search"></i>
 					</button>
-				</div><!-- navbar-header ends -->
+				</div>
 				<div class="navbar-collapse collapse" id="navigation">
 					<div class="padding-nav">
 						<ul class="nav navbar-nav navbar-left">
@@ -63,8 +62,8 @@
 							<li><a href="checkout.php">My Account</a></li>
 							<li><a href="cart.php">Shopping Cart</a></li>
 							<li><a href="contact.php">Contact Us</a></li>
-						</ul><!-- nav navbar-nav navbar-left ends -->
-					</div><!-- padding-nav ends -->
+						</ul>
+					</div>
 					<a href="cart.php" class="btn btn-primary navbar-btn right">
 						<i class="fa fa-shopping-cart"></i>
 						<span>4 Items in carts</span>
@@ -74,7 +73,7 @@
 							<span class="sr-only">Toggle Search</span>
 							<i class="fa fa-search"></i>
 						</button>
-					</div><!-- navbar-collapse collapse right ends -->
+					</div>
 						<div class="collape clearfix" id="search">
 						<form class="navbar-form" method="get" action="results.php">
 							<div class="input-group">
@@ -85,14 +84,63 @@
 									</button>
 								</span>
 							</div>
-						</form><!-- navbar-form ends-->
-					</div><!-- collape clearfix ends-->
-				</div><!-- navbar-collapse collapse ends -->
-			</div><!-- container ends -->			
-		</div><!-- navbar navbar-default ends -->
+						</form>
+					</div>
+				</div>
+			</div>		
+		</div> -->
+
+		<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+			<div class="container">
+				<a class="navbar-brand home" href="index.php">FajarStore</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navigation">
+					<div class="padding-nav">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="shop.php">Shop</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="checkout.php">My Account</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="cart.php">Shopping Cart</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.php">Contact Us</a>
+							</li>
+						</ul>
+					</div><!-- padding-nav ends -->		
+				</div><!-- collapse navbar-collapse ends -->
+				<div class="clearfix">
+					<button class="btn btn-primary mr-1" type="button" data-toggle="collapse" data-target="#search" aria-expanded="false" aria-controls="collapseExample">
+						<i class="fa fa-search"></i>
+					</button>
+					<a href="cart.php" class="btn btn-primary navbar-btn right">
+						<i class="fa fa-shopping-cart"></i>
+						<span>4 Items in carts</span>
+					</a>
+				</div><!-- clearfix ends -->
+			</div><!-- container ends -->
+		</nav><!-- navbar ends -->
+
+		<div class="collapse clearfix bg-white" id="search">
+			<div class="container">
+				<form class="form-inline navbar-form my-1" method="get" action="results.php">
+						<input class="form-control mr-sm-1" type="text" placeholder="Search" aria-label="Search" name="user-query" required>
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div><!-- container ends -->
+		</div><!-- collapse celarfix -->
 
 
-		<div class="container" id="slider">
+		<!-- <div class="container my-4" id="slider">
 			<div class="col-md-12">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -100,7 +148,7 @@
 						<li data-target="#myCarousel" data-slide-to="1" ></li>
 						<li data-target="#myCarousel" data-slide-to="2" ></li>
 						<li data-target="#myCarousel" data-slide-to="3" ></li>
-					</ol><!-- carousel-indicators ends -->
+					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img class="d-block w-75" src="admin_area/slides_images/slide1.jpg" alt="Slide1">
@@ -114,7 +162,7 @@
 						<div class="carousel-item">
 							<img class="d-block w-75" src="admin_area/slides_images/slide4.jpg" alt="Slide4">
 						</div>
-					</div><!-- carousel-inner ends -->
+					</div>
 					<a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="sr-only">Previous</span>
@@ -124,9 +172,42 @@
 						<span class="sr-only">Next</span>
 					</a>
 
-				</div><!-- carousel slider ends -->
-			</div><!-- col-md-12 ends -->
-		</div><!-- container ends -->
+				</div>
+			</div>
+		</div> -->
+
+		<div class="container my-4 mx-auto" id="slider">
+			<div id="slides_images" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#slides_images" data-slide-to="0" class="active"></li>
+					<li data-target="#slides_images" data-slide-to="1"></li>
+					<li data-target="#slides_images" data-slide-to="2"></li>
+					<li data-target="#slides_images" data-slide-to="3"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100 h-25" src="admin_area/slides_images/slide1.jpg" alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100 h-25" src="admin_area/slides_images/slide2.jpg" alt="Second slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100 h-25" src="admin_area/slides_images/slide3.jpg" alt="Third slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100 h-25" src="admin_area/slides_images/slide4.jpg" alt="Fourth slide">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#slides_images" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#slides_images" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
 
 		<div id="advantages">
 			<div class="container">

@@ -75,24 +75,34 @@ body{
 .navbar-brand{
 	float: left;
 	padding:10px 15px;
-	font-size:18px ;
-	line-height: 20px;
+	font-size:25px ;
+	line-height: 40px;
 	height: 70px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus{
 	text-decoration: none;
 }
-.navbar ul.nav > li > a{
+/* .navbar ul.nav > li > a{
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 14px;
 }
-.padding-nav{
-	padding-top: 10px;
-}
 .navbar ul.nav > li > a:hover{
 	background:#e7e7e7e;
+} */
+a.nav-link{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+a.nav-link:hover ,
+a.nav-link:active,
+a.nav-link:focus{
+	background:#e7e7e7;
+}
+.padding-nav{
+	padding-top: 10px;
 }
 .btn-primary{
 	color:  rgb(255, 255, 255);
@@ -104,7 +114,6 @@ body{
 }
 #search{
 	clear: both;
-	border-top: solid 1px #9adacd ;
 	text-align: right;
 }
 #search .navbar-form .input-group{
@@ -121,6 +130,9 @@ body{
 }
 
 /* advantages or icon dibawah slider */
+#advantages{
+	text-align: center;
+}
 .box{
 	background:  #fff;
 	margin:  0 0 30px;
@@ -128,9 +140,7 @@ body{
 	box-sizing: border-box;
 	padding: 20px;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-}
-#advantages{
-	text-align: center;
+	height: 75%;
 }
 #advantages .box .icon{
 	position: absolute;
