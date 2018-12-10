@@ -222,6 +222,27 @@ a.nav-link:focus{
 	margin-bottom: 10px;
 }
 
+
+/* beradcumb style */
+ol.breadcrumb.nav-breadcrumb{
+	padding: 8px 15px;
+	margin: 20px 0;
+	background-color: #fff;
+	border-radius: 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+ol.breadcrumb.nav-breadcrumb > li + li:before{
+	content: ">\00a0";
+	color: #ccc;
+}
+@media(max-width: 991px){
+	ol.breadcrumb.nav-breadcrumb{
+		padding: 8px 0 ;
+		text-align: center;
+	}
+}
+
+
 /* footer style */
 #footer{
 	background:  #e0e0e0;
