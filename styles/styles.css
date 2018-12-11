@@ -242,6 +242,23 @@ ol.breadcrumb.nav-breadcrumb > li + li:before{
 	}
 }
 
+/* product categories and categories styles */
+.card.sidebar-menu{
+	box-sizing: border-box;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.card.sidebar-menu ul.nav.category-menu{
+	margin-bottom: 20px;
+}
+.card.sidebar-menu ul.nav.category-menu li a{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.card.sidebar-menu h5.card-title{
+	padding : 5px 0;
+	margin: 0;
+}
+
 
 /* footer style */
 #footer{

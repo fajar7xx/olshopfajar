@@ -104,6 +104,38 @@
 					<div class="col-md-3">
 						<?php include_once("includes/sidebar.php"); ?>
 					</div><!-- col-md-3 ends -->
+					<div class="col-md-9">
+						<div class="card">
+							<h1>Shop</h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div><!-- card ends -->
+
+						<div class="row">
+							<div class="container">
+								<div class="col-md-3 col-sm-4 center-responsive">
+									<div class="product">
+										<a href="details.php">
+											<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
+											<div class="text">
+												<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
+												<p class="price">$50</p>
+												<p class="buttons">
+													<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
+													<a href="details.php" class="btn btn-primary btn-sm">
+														<i class="fa fa-shopping-cart"></i>
+														Add to Cart
+													</a>
+												</p>
+											</div><!-- text ends -->
+										</a>
+									</div><!-- product ends -->
+								</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+							</div><!-- container ends -->
+						</div><!-- row ends -->
+					</div><!-- col-md-9 ends -->
 				</div><!-- row-ends -->
 			</div><!-- container ends -->
 		</div><!-- content ends -->
