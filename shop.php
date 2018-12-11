@@ -101,11 +101,11 @@
 					</div><!-- col-md-12 ends -->
 				</div><!-- row ends -->
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 mb-3">
 						<?php include_once("includes/sidebar.php"); ?>
 					</div><!-- col-md-3 ends -->
 					<div class="col-md-9">
-						<div class="card">
+						<div class="card p-2">
 							<h1>Shop</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -113,28 +113,137 @@
 							consequat.</p>
 						</div><!-- card ends -->
 
-						<div class="row">
-							<div class="container">
-								<div class="col-md-3 col-sm-4 center-responsive">
-									<div class="product">
-										<a href="details.php">
-											<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
-											<div class="text">
-												<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
-												<p class="price">$50</p>
-												<p class="buttons">
-													<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
-													<a href="details.php" class="btn btn-primary btn-sm">
-														<i class="fa fa-shopping-cart"></i>
-														Add to Cart
-													</a>
-												</p>
-											</div><!-- text ends -->
-										</a>
-									</div><!-- product ends -->
-								</div><!-- col-md-4 col-sm-6 center-responsive ends -->
-							</div><!-- container ends -->
+						<div class="row mt-2">
+							<div class="col-md-4 col-sm-6 center-responsive">
+								<div class="product">
+									<a href="details.php">
+										<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
+										<div class="text">
+											<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
+											<p class="price">$50</p>
+											<p class="buttons">
+												<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
+												<a href="details.php" class="btn btn-primary btn-sm">
+													<i class="fa fa-shopping-cart"></i>
+													Add to Cart
+												</a>
+											</p>
+										</div><!-- text ends -->
+									</a>
+								</div><!-- product ends -->
+							</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+							<div class="col-md-4 col-sm-6 center-responsive">
+								<div class="product">
+									<a href="details.php">
+										<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
+										<div class="text">
+											<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
+											<p class="price">$50</p>
+											<p class="buttons">
+												<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
+												<a href="details.php" class="btn btn-primary btn-sm">
+													<i class="fa fa-shopping-cart"></i>
+													Add to Cart
+												</a>
+											</p>
+										</div><!-- text ends -->
+									</a>
+								</div><!-- product ends -->
+							</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+							<div class="col-md-4 col-sm-6 center-responsive">
+								<div class="product">
+									<a href="details.php">
+										<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
+										<div class="text">
+											<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
+											<p class="price">$50</p>
+											<p class="buttons">
+												<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
+												<a href="details.php" class="btn btn-primary btn-sm">
+													<i class="fa fa-shopping-cart"></i>
+													Add to Cart
+												</a>
+											</p>
+										</div><!-- text ends -->
+									</a>
+								</div><!-- product ends -->
+							</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+							<div class="col-md-4 col-sm-6 center-responsive">
+								<div class="product">
+									<a href="details.php">
+										<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
+										<div class="text">
+											<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
+											<p class="price">$50</p>
+											<p class="buttons">
+												<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
+												<a href="details.php" class="btn btn-primary btn-sm">
+													<i class="fa fa-shopping-cart"></i>
+													Add to Cart
+												</a>
+											</p>
+										</div><!-- text ends -->
+									</a>
+								</div><!-- product ends -->
+							</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+							<div class="col-md-4 col-sm-6 center-responsive">
+								<div class="product">
+									<a href="details.php">
+										<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
+										<div class="text">
+											<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
+											<p class="price">$50</p>
+											<p class="buttons">
+												<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
+												<a href="details.php" class="btn btn-primary btn-sm">
+													<i class="fa fa-shopping-cart"></i>
+													Add to Cart
+												</a>
+											</p>
+										</div><!-- text ends -->
+									</a>
+								</div><!-- product ends -->
+							</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+							<div class="col-md-4 col-sm-6 center-responsive">
+								<div class="product">
+									<a href="details.php">
+										<img src="admin_area/product_images/produk1.jpg" alt="produk 1" class="img-fluid">
+										<div class="text">
+											<h3><a href="details.php">Marvel Black Kids Polo T-Shirt</a></h3>
+											<p class="price">$50</p>
+											<p class="buttons">
+												<a href="details.php" class="btn btn-secondary btn-sm">View Details</a>
+												<a href="details.php" class="btn btn-primary btn-sm">
+													<i class="fa fa-shopping-cart"></i>
+													Add to Cart
+												</a>
+											</p>
+										</div><!-- text ends -->
+									</a>
+								</div><!-- product ends -->
+							</div><!-- col-md-4 col-sm-6 center-responsive ends -->
 						</div><!-- row ends -->
+
+						<nav aria-label="Page navigation example">
+							<ul class="pagination justify-content-center">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1">First</a>
+								</li>
+								<li class="page-item"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item"><a class="page-link" href="#">4</a></li>
+								<li class="page-item"><a class="page-link" href="#">5</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#">Last</a>
+								</li>
+							</ul><!-- pagination justify-content-center ends -->
+						</nav><!-- nav pagination ends -->
 					</div><!-- col-md-9 ends -->
 				</div><!-- row-ends -->
 			</div><!-- container ends -->

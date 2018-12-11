@@ -16,7 +16,8 @@ perbaikan:
   ✔ tulisan thois week @done (18-12-08 14:30)
   ✔ product img @done (18-12-08 14:30)
   ✔ footer @done (18-12-08 14:30)
-  ☐ pada bagian shop.php ada kesalahan pada bagian penbempatan tiap dev product sesuaikan dlu ya 
+  ✔ pada bagian shop.php ada kesalahan pada bagian penbempatan tiap dev product sesuaikan dlu ya @done (18-12-11 16:27)
+  ☐ pada slider details.php image tidak responsive ukuran masih ada yang bersalahan tuh
 
 04 Theme structure with html5 & css3 And bs3:
   ✔ 049 lecturer 1 @done (18-11-30 23:31)
@@ -26,32 +27,32 @@ perbaikan:
   ✔ 53 lecturer 5 @done (18-12-01 10:29)
   ✔ 54 lecturer 6 @done (18-12-01 11:05)
   ✔ 55 lecturer 7 @done (18-12-01 11:49)
-  ☐ 56 lecturer 8 navbar html
-  ☐ 57 lecturer 9 navbar css
+  ✔ 56 lecturer 8 navbar html @done (18-12-11 16:27)
+  ✔ 57 lecturer 9 navbar css @done (18-12-11 16:27)
   ✔ 58 lecturer 10 searchbox on navbar berhenti disini untuk perbaikan beberapa hal @done (18-12-03 10:02)
-  ☐ 59 lecturer 11 slider
-  ☐ 60 lecturer 12 slider control
+  ✔ 59 lecturer 11 slider @done (18-12-11 16:27)
+  ✔ 60 lecturer 12 slider control @done (18-12-11 16:27)
   ✔ 61 lecturer 13 box dibawah slider @done (18-12-05 16:50)
-  ☐ 62 lecturer 14
-  ☐ 63 lecturer 15 pembuatan featured product seprti nya 
-  ☐ 64 lecturer 16
-  ☐ 65 lecturer 17 daftar produk yang d jual
-  ☐ 66 lecturer 18 membuat footer php
-  ☐ 67 lecturer 19
-  ☐ 68 lecturer 20
+  ✔ 62 lecturer 14 @done (18-12-11 16:27)
+  ✔ 63 lecturer 15 pembuatan featured product seprti nya @done (18-12-11 16:27)
+  ✔ 64 lecturer 16 @done (18-12-11 16:27)
+  ✔ 65 lecturer 17 daftar produk yang d jual @done (18-12-11 16:27)
+  ✔ 66 lecturer 18 membuat footer php @done (18-12-11 16:27)
+  ✔ 67 lecturer 19 @done (18-12-11 16:27)
+  ✔ 68 lecturer 20 @done (18-12-11 16:27)
   ✔ 69 lecturer 21 footer @done (18-12-06 14:37)
-  ☐ 70 lecturer 22 breadcumb
-  ☐ 71 lecturer 23 bradcumb styles
+  ✔ 70 lecturer 22 breadcumb @done (18-12-11 16:27)
+  ✔ 71 lecturer 23 bradcumb styles @done (18-12-11 16:27)
   ✔ 72 lecturer 24 sidebar menu pad menit 08.00 @done (18-12-11 11:22)
-  ✔ 73 lecturer 25 @done (18-12-11 11:51)
-  ☐ 74 lecturer 26
-  ☐ 75 lecturer 27
-  ☐ 76 lecturer 28
-  ☐ 77 lecturer 29
-  ☐ 78 lecturer 30
-  ☐ 79 lecturer 31
-  ☐ 80 lecturer 32
-  ☐ 81 lecturer 33
+  ✔ 73 lecturer 25 @done (18-12-11 16:27)
+  ✔ 74 lecturer 26 pagination @done (18-12-11 16:27)
+  ✔ 75 lecturer 27 details.php dan slider @done (18-12-11 16:15)
+  ✔ 76 lecturer 28 @done (18-12-11 17:05)
+  ✔ 77 lecturer 29 @done (18-12-11 17:05)
+  ✔ 78 lecturer 30 @done (18-12-11 17:05)
+  ✔ 79 lecturer 31 @done (18-12-11 17:21)
+  ✔ 80 lecturer 32 @done (18-12-11 17:35)
+  ☐ 81 lecturer 33 card.php
   ☐ 82 lecturer 34
   ☐ 83 lecturer 35
   ☐ 84 lecturer 36
@@ -70,8 +71,3 @@ perbaikan:
   ☐ 97 lecturer 49
   ☐ 98 lecturer 50
   ☐ 99 lecturer 51
-
-kendala selama belajar pada sub folder 4 :
- ☐ perbaiki navbar sesuai struktur bs4
- ☐ perbaiki slider sesuai b4
- ☐ lihat class apkah itu class b3 atau b4 jikab3 sesuaikan dengan class b4

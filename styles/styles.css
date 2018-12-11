@@ -259,6 +259,42 @@ ol.breadcrumb.nav-breadcrumb > li + li:before{
 	margin: 0;
 }
 
+/* shop product style */
+@media(max-width: 768px){
+	.center-responsive{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 550px;){
+	.center-responsive{
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+/* details style */
+#content #productMain{
+	margin-bottom: 20px;
+}
+#content #productMain .price{
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 40px;
+}
+#content #mainImage{
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+}
+#content #thumbs a{
+	display: block;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	border: solid 2px transparent;
+}
+#content .headline{
+	height: 315px;
+}
+
 
 /* footer style */
 #footer{
