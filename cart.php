@@ -169,7 +169,7 @@
 											<button class="btn btn-secondary btn-sm" type="submit" name="update" value="Update Cart">
 												<i class="fas fa-sync"></i> Update Cart
 											</button>
-											<a href="checkout.php" class="btn btn-primary btn-sm">
+											<a href="checkout.php" class="btn btn-success btn-sm">
 												Process to Chechout
 												<i class="fa fa-chevron-right"></i>
 											</a>

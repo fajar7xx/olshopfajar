@@ -4,9 +4,19 @@ hal-hal penting:
   ☐ migrasi bs3 ke bs4 karena kita menggunakan bs4 jadi akan banyak sedikti kendala dalam pembuatan tempalate dasar
 
  yang dikerjakan :
-   ☐ pembuatan navbar berbasis bs4
+   ✔ pembuatan navbar berbasis bs4 @done (18-12-12 14:27)
  
 rancangan database :
+ ☐ admins
+ ☐ cart
+ ☐ categories
+ ☐ customers
+ ☐ customer_orders
+ ☐ payment
+ ☐ pending_order
+ ☐ products
+ ☐ product_categories
+ ☐ slider
 
 perbaikan:
   ✔ header @done (18-12-08 14:30)
@@ -17,7 +27,7 @@ perbaikan:
   ✔ product img @done (18-12-08 14:30)
   ✔ footer @done (18-12-08 14:30)
   ✔ pada bagian shop.php ada kesalahan pada bagian penbempatan tiap dev product sesuaikan dlu ya @done (18-12-11 16:27)
-  ☐ pada slider details.php image tidak responsive ukuran masih ada yang bersalahan tuh
+  ✔ pada slider details.php image tidak responsive ukuran masih ada yang bersalahan tuh @done (18-12-12 14:27)
 
 04 Theme structure with html5 & css3 And bs3:
   ✔ 049 lecturer 1 @done (18-11-30 23:31)
@@ -54,12 +64,12 @@ perbaikan:
   ✔ 80 lecturer 32 @done (18-12-11 17:35)
   ✔ 81 lecturer 33 cart.php @done (18-12-11 23:04)
   ✔ 82 lecturer 34 @done (18-12-11 23:04)
-  ☐ 83 lecturer 35
-  ☐ 84 lecturer 36
-  ☐ 85 lecturer 37
-  ☐ 86 lecturer 38
-  ☐ 87 lecturer 39
-  ☐ 88 lecturer 40
+  ✔ 83 lecturer 35 @done (18-12-12 09:34)
+  ✔ 84 lecturer 36 @done (18-12-12 09:34)
+  ✔ 85 lecturer 37 @done (18-12-12 09:34)
+  ✔ 86 lecturer 38 contact.php @done (18-12-12 14:55)
+  ✔ 87 lecturer 39 @done (18-12-12 14:55)
+  ✔ 88 lecturer 40 register page @done (18-12-12 15:08)
   ☐ 89 lecturer 41
   ☐ 90 lecturer 42
   ☐ 91 lecturer 43
