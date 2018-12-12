@@ -295,6 +295,54 @@ ol.breadcrumb.nav-breadcrumb > li + li:before{
 	height: 315px;
 }
 
+/* cart pages styles */
+#content #cart .table tbody tr td img{
+	width: 50px;
+}
+#content #cart .table tbody tr td input{
+	width: 40px;
+	text-align: right;
+}
+#content #cart .table tbody tr td{
+	vertical-align: middle;
+}
+#content #cart .table tbody tfoot{
+	font-size: 18px;
+}
+.card .card-footer{
+	background: #f7f7f7;
+	margin: 30px -20px -20px;
+	padding:  20px;
+	border-top: solid 1px #eee;
+}
+.card .card-footer:before,
+.card .card-footer:after{
+	content: " ";
+	display: table;
+}
+.card .card-footer:after{
+	clear: both;
+}
+.card .card-header{
+	background:  #f7f7f7;
+	margin: -20px -20px 20px;
+	padding: 20px;
+	border-bottom: solid 1px #eee;
+}
+#content #order-summary table{
+	margin-top: 20px;
+}
+#content #order-summary table td{
+	color: #999;
+}
+#content #order-summary table tr.total td,
+#content #order-summary table tr.total th{
+	font-size: 18px;
+	color: #555;
+	font-weight: 700;
+
+}
+
 
 /* footer style */
 #footer{

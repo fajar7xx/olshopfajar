@@ -258,7 +258,7 @@
 									</div>
 								</div>
 							</div>
-						</div><!-- same-height-row ends -->
+						</div><!-- row mt-2 ends -->
 					</div><!-- col-md-9 ends -->
 				</div><!-- row-ends -->
 			</div><!-- container ends -->
