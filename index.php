@@ -1,3 +1,8 @@
+<?php  
+include_once "includes/db.php"
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -56,7 +61,7 @@
 								<a class="nav-link" href="shop.php">Shop</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="checkout.php">My Account</a>
+								<a class="nav-link" href="customer/my_account.php">My Account</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="cart.php">Shopping Cart</a>
@@ -88,6 +93,8 @@
 			</div><!-- container ends -->
 		</div><!-- collapse celarfix -->
 
+
+		<!-- slide section -->
 		<div class="container my-4 mx-auto" id="slider">
 			<div id="slides_images" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -97,7 +104,36 @@
 					<li data-target="#slides_images" data-slide-to="3"></li>
 				</ol>
 				<div class="carousel-inner">
+				<?php  
+				$get_slides = "SELECT * FROM slider LIMIT 0,1";
+				$run_slides = mysqli_query($con, $get_slides);
+
+				while($row_slides = mysqli_fetch_array($run_slides)):
+					$slide_name = $row_slides['slider_name'];
+					$slide_img = $row_slides['slider_img'];
+				?>
 					<div class="carousel-item active">
+						<img class="d-block w-100 h-25" src="admin_area/slides_images/<?=$slide_img;?>" alt="<?=$slide_name;?>">
+					</div>
+				<?php  
+				endwhile;
+
+				$get_slides2 = "SELECT * FROM slider LIMIT 1,3";
+				$run_slides2 = mysqli_query($con, $get_slides2);
+
+				while($row_slides2 = mysqli_fetch_array($run_slides2)):
+					$slide_name2 = $row_slides2['slider_name'];
+					$slide_img2 = $row_slides2['slider_img'];
+				?>
+					
+				<div class="carousel-item">
+					<img class="d-block w-100 h-25" src="admin_area/slides_images/<?=$slide_img2;?>" alt="<?=$slide_name2;?>">
+				</div>
+
+				<?php  
+				endwhile;
+				?>	
+					<!-- <div class="carousel-item active">
 						<img class="d-block w-100 h-25" src="admin_area/slides_images/slide1.jpg" alt="First slide">
 					</div>
 					<div class="carousel-item">
@@ -108,8 +144,8 @@
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100 h-25" src="admin_area/slides_images/slide4.jpg" alt="Fourth slide">
-					</div>
-				</div>
+					</div> -->
+				</div><!-- carousel inner ends -->
 				<a class="carousel-control-prev" href="#slides_images" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>

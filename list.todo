@@ -9,14 +9,14 @@ hal-hal penting:
 rancangan database :
  ☐ admins
  ☐ cart
- ☐ categories
+ ✔ categories @done (18-12-15 20:05)
  ☐ customers
  ☐ customer_orders
  ☐ payment
  ☐ pending_order
- ☐ products
- ☐ product_categories
- ☐ slider
+ ✔ products @done (18-12-15 20:05)
+ ✔ product_categories @done (18-12-15 20:05)
+ ✔ slider @done (18-12-15 20:05)
 
 perbaikan:
   ✔ header @done (18-12-08 14:30)
@@ -28,8 +28,9 @@ perbaikan:
   ✔ footer @done (18-12-08 14:30)
   ✔ pada bagian shop.php ada kesalahan pada bagian penbempatan tiap dev product sesuaikan dlu ya @done (18-12-11 16:27)
   ✔ pada slider details.php image tidak responsive ukuran masih ada yang bersalahan tuh @done (18-12-12 14:27)
+  ☐ clas pada bs4 utnuk menggantikan  form-horizontal
 
-04 Theme structure with html5 & css3 And bs3:
+04 Theme structure with html5 & css3 And bs3: @selesai
   ✔ 049 lecturer 1 @done (18-11-30 23:31)
   ✔ 50 lecturer 2 @done (18-11-30 23:50)
   ✔ 51 lecturer 3 @done (18-12-01 00:04)
@@ -70,14 +71,125 @@ perbaikan:
   ✔ 86 lecturer 38 contact.php @done (18-12-12 14:55)
   ✔ 87 lecturer 39 @done (18-12-12 14:55)
   ✔ 88 lecturer 40 register page @done (18-12-12 15:08)
-  ☐ 89 lecturer 41
-  ☐ 90 lecturer 42
-  ☐ 91 lecturer 43
-  ☐ 92 lecturer 44
-  ☐ 93 lecturer 45
-  ☐ 94 lecturer 46
-  ☐ 95 lecturer 47
-  ☐ 96 lecturer 48
-  ☐ 97 lecturer 49
-  ☐ 98 lecturer 50
-  ☐ 99 lecturer 51
+  ✔ 89 lecturer 41 my account @done (18-12-12 21:53)
+  ✔ 90 lecturer 42 @done (18-12-13 10:49)
+  ✔ 91 lecturer 43 @done (18-12-13 10:49)
+  ✔ 92 lecturer 44 @done (18-12-13 10:49)
+  ✔ 93 lecturer 45 @done (18-12-13 11:01)
+  ✔ 94 lecturer 46 @done (18-12-13 17:52)
+  ✔ 95 lecturer 47 @done (18-12-13 17:52)
+  ✔ 96 lecturer 48 confirm page @done (18-12-13 17:52)
+  ✔ 97 lecturer 49 @done (18-12-13 17:57)
+  ✔ 98 lecturer 50 @done (18-12-13 18:08)
+  ✔ 99 lecturer 51 @done (18-12-13 18:16)
+
+05 Making E-Commerce Store Dynamic Through PHPMYSQLI :
+ ✔ 100 Lectures 52 @done (18-12-15 11:56) slider dynamic
+ ✔ 101 Lectures 53 @done (18-12-15 19:00)
+ ✔ 102 Lectures 54 @done (18-12-15 19:30)
+ ✔ 103 Lectures 55 @done (18-12-15 19:51)
+ ✔ 104 Lectures 56 form isert data @done (18-12-15 20:11)
+ ✔ 105 Lectures 57 form row @done (18-12-17 10:13)
+ ✔ 106 Lectures 58 @done (18-12-17 10:35)
+ ✔ 107 Lectures 59 insert product @done (18-12-17 10:51)
+ ✔ 108 Lectures 60 @done (18-12-17 11:13)
+ ☐ 109 Lectures 61
+ ☐ 110 Lectures 62
+ ☐ 111 Lectures 63
+ ☐ 112 Lectures 64
+ ☐ 113 Lectures 65
+ ☐ 113 Lectures 66
+ ☐ 113 Lectures 67
+ ☐ 113 Lectures 68
+ ☐ 113 Lectures 69
+ ☐ 113 Lectures 70
+ ☐ 113 Lectures 71
+ ☐ 113 Lectures 72
+ ☐ 113 Lectures 73
+ ☐ 113 Lectures 74
+ ☐ 113 Lectures 75
+ ☐ 113 Lectures 76
+ ☐ 113 Lectures 77
+ ☐ 113 Lectures 78
+ ☐ 113 Lectures 79
+ ☐ 113 Lectures 80
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 104 Lectures 
+ ☐ 105 Lectures 
+ ☐ 106 Lectures 
+ ☐ 107 Lectures 
+ ☐ 108 Lectures 
+ ☐ 109 Lectures 
+ ☐ 110 Lectures 
+ ☐ 111 Lectures 
+ ☐ 112 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 104 Lectures 
+ ☐ 105 Lectures 
+ ☐ 106 Lectures 
+ ☐ 107 Lectures 
+ ☐ 108 Lectures 
+ ☐ 109 Lectures 
+ ☐ 110 Lectures 
+ ☐ 111 Lectures 
+ ☐ 112 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 
+ ☐ 113 Lectures 

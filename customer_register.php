@@ -50,19 +50,19 @@
 					<div class="padding-nav">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-link" href="../index.php">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="shop.php">Shop</a>
+								<a class="nav-link" href="../shop.php">Shop</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="checkout.php">My Account</a>
+								<a class="nav-link" href="../checkout.php">My Account</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="cart.php">Shopping Cart</a>
+								<a class="nav-link" href="../cart.php">Shopping Cart</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="contact.php">Contact Us</a>
+								<a class="nav-link" href="../contact.php">Contact Us</a>
 							</li>
 						</ul>
 					</div><!-- padding-nav ends -->		

@@ -1,0 +1,385 @@
+/* 
+template : E-Commerce Store
+using php mysqli w bs4
+By : fajar siagian
+followed tutorial
+ */
+
+
+/* general styles */
+body{
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #f0f0f0;
+	overflow-x: hidden;
+}
+
+/* top navbar styles*/
+#top{
+	background: #555;
+	padding: 10px 0;
+}
+#top .offer{
+	color: #fff;
+}
+#top .offer .btn{
+	text-transform: uppercase;
+}
+@media(max-width: 991px){
+	#top . offer{
+		margin-bottom: 10px;
+	}
+}
+@media(max-width: : 991px){
+	#top{
+		font-size: 12px;
+		text-align: center;
+	}
+}
+#top a{
+	color: #fff;
+}
+#top ul.menu{
+	padding-top: 5px;
+	margin: 0;
+	text-align: right;
+	font-size: 12px;
+	list-style: none; 
+}
+@media(max-width: 991px){
+	#top ul.menu{
+		text-align: center;
+	}
+}
+#top ul.menu>li{
+	display: inline-block;
+}
+#top ul.menu > li a{
+	color: #eee;
+}
+#top ul.menu > li + li:before{
+	content: "| \00a0";
+	padding: 0 5px;
+	color: #f7f7f7;
+}
+
+/* header style */
+.navbar{
+	background: white;
+}
+.navbar-collapse .right{
+	float: right;
+}
+.navbar-brand{
+	float: left;
+	padding:10px 15px;
+	font-size:25px ;
+	line-height: 40px;
+	height: 70px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus{
+	text-decoration: none;
+}
+/* .navbar ul.nav > li > a{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+.navbar ul.nav > li > a:hover{
+	background:#e7e7e7e;
+} */
+a.nav-link{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+a.nav-link:hover ,
+a.nav-link:active,
+a.nav-link:focus{
+	background:#e7e7e7;
+}
+.padding-nav{
+	padding-top: 10px;
+}
+.btn-primary{
+	color:  rgb(255, 255, 255);
+	background-color: rgb(79, 191, 168);
+	border-color: rgb(65, 179, 156);
+}
+#search .navbar-form{
+	float: right;
+}
+#search{
+	clear: both;
+	text-align: right;
+}
+#search .navbar-form .input-group{
+	display: table;
+}
+#search .navbar-form .input-group .form-control{
+	width: 100%;
+	
+}
+
+/* slider style */
+#slider{
+	margin-bottom: 40px;
+}
+
+/* advantages or icon dibawah slider */
+#advantages{
+	text-align: center;
+}
+.box{
+	background:  #fff;
+	margin:  0 0 30px;
+	border:  solid 1px #e6e6e6;
+	box-sizing: border-box;
+	padding: 20px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	height: 75%;
+}
+#advantages .box .icon{
+	position: absolute;
+	font-size: 120px;
+	width: 100%;
+	text-align: center;
+	top: -20px;
+	left: 0;
+	height: 100%;
+	float: left;
+	color: #eee;
+	transition: all 0.2s ease-out;
+	z-index: 1;
+	box-sizing: border-box;
+}
+#advantages .box h3{
+	position: relative;
+	margin: 0 0 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	z-index: 2;
+}
+#advantages .box h3 a:hover{
+	text-decoration: none;
+}
+#advantages .box p{
+	position: relative;
+	color: #555;
+	z-index: 2;
+}
+
+/* product styles */
+#hot h2{
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #499993;
+	font-weight: 100;
+	text-align: center;
+}
+#content{
+	padding-left: 25px;
+}
+.single{
+	width: 290px;
+}
+
+@media(max-width: 768px){
+	.single{
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+#content .product{
+	background: #fff;
+	border:  solid 1px #e6e6e6;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+#content .product .text p.price{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 300;
+}
+#content .product .text .buttons{
+	clear: both;
+	text-align: center;
+}
+#content .product .text h3{
+	text-align: center;
+	font-size: 20px
+}
+#content .product .text h3 a{
+	color: rgb(85, 85, 85);
+}
+#content .product .text {
+	padding: 10px 10px 0px;
+}
+#content .product .text .buttons .btn{
+	margin-bottom: 10px;
+}
+
+
+/* beradcumb style */
+ol.breadcrumb.nav-breadcrumb{
+	padding: 8px 15px;
+	margin: 20px 0;
+	background-color: #fff;
+	border-radius: 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+ol.breadcrumb.nav-breadcrumb > li + li:before{
+	content: ">\00a0";
+	color: #ccc;
+}
+@media(max-width: 991px){
+	ol.breadcrumb.nav-breadcrumb{
+		padding: 8px 0 ;
+		text-align: center;
+	}
+}
+
+/* product categories and categories styles */
+.card.sidebar-menu{
+	box-sizing: border-box;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.card.sidebar-menu ul.nav.category-menu{
+	margin-bottom: 20px;
+}
+.card.sidebar-menu ul.nav.category-menu li a{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.card.sidebar-menu h5.card-title{
+	padding : 5px 0;
+	margin: 0;
+}
+
+/* shop product style */
+@media(max-width: 768px){
+	.center-responsive{
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+@media(max-width: 550px;){
+	.center-responsive{
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+/* details style */
+#content #productMain{
+	margin-bottom: 20px;
+}
+#content #productMain .price{
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 40px;
+}
+#content #mainImage{
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+}
+#content #thumbs a{
+	display: block;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	border: solid 2px transparent;
+}
+#content .headline{
+	height: 315px;
+}
+
+/* cart pages styles */
+#content #cart .table tbody tr td img{
+	width: 50px;
+}
+#content #cart .table tbody tr td input{
+	width: 40px;
+	text-align: right;
+}
+#content #cart .table tbody tr td{
+	vertical-align: middle;
+}
+#content #cart .table tbody tfoot{
+	font-size: 18px;
+}
+.card .card-footer{
+	background: #f7f7f7;
+	margin: 30px -20px -20px;
+	padding:  20px;
+	border-top: solid 1px #eee;
+}
+.card .card-footer:before,
+.card .card-footer:after{
+	content: " ";
+	display: table;
+}
+.card .card-footer:after{
+	clear: both;
+}
+.card .card-header{
+	background:  #f7f7f7;
+	/* margin: -20px -20px 20px; */
+	/* padding: 20px; */
+	border-bottom: solid 1px #eee;
+}
+#content #order-summary table{
+	margin-top: 20px;
+}
+#content #order-summary table td{
+	color: #999;
+}
+#content #order-summary table tr.total td,
+#content #order-summary table tr.total th{
+	font-size: 18px;
+	color: #555;
+	font-weight: 700;
+
+}
+
+
+/* footer style */
+#footer{
+	background:  #e0e0e0;
+	padding:20px 0 ;
+}
+#footer ul{
+	padding-left: 0;
+	list-style: none;
+}
+#footer ul a{
+	color: #999;
+	padding: 20px 0;
+}
+#footer .social{
+	text-align: left;
+}
+#footer .social a{
+	margin: 0 10px 0 0;
+	color:  #fff;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: center;
+	transition: all 0.2s ease-out;
+	vertical-align: bottom;
+	background-color: #555;
+}
+#copyright{
+	background: #333;
+	color: #ccc;
+	padding: 20px 0;
+	font-size: 12px;
+}
+#copyright p{
+	margin: 0;
+}
