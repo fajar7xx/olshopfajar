@@ -1,4 +1,4 @@
-<?php  
+<?php
 include_once "includes/db.php"
 ?>
 
@@ -10,7 +10,7 @@ include_once "includes/db.php"
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Ecommerce Fajar</title>
-		
+
 		<!-- fonts -->
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100" />
 		<!-- Bootstrap CSS -->
@@ -22,8 +22,8 @@ include_once "includes/db.php"
 	</head>
 	<body>
 
-		
-		<div id="top"><!-- top starts -->
+
+		< id="top"><!-- top starts -->
 			<div class="container"><!-- container start -->
 				<div class="row">
 					<div class="col-md-6 offer">
@@ -42,7 +42,7 @@ include_once "includes/db.php"
 					</div>
 				</div>
 			</div><!-- container end -->
-		</div><!-- top end -->
+		</><!-- top end -->
 
 		<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
 			<div class="container">
@@ -70,7 +70,7 @@ include_once "includes/db.php"
 								<a class="nav-link" href="contact.php">Contact Us</a>
 							</li>
 						</ul>
-					</div><!-- padding-nav ends -->		
+					</div><!-- padding-nav ends -->
 				</div><!-- collapse navbar-collapse ends -->
 				<div class="clearfix">
 					<button class="btn btn-primary mr-1" type="button" data-toggle="collapse" data-target="#search" aria-expanded="false" aria-controls="collapseExample">
@@ -104,7 +104,7 @@ include_once "includes/db.php"
 					<li data-target="#slides_images" data-slide-to="3"></li>
 				</ol>
 				<div class="carousel-inner">
-				<?php  
+				<?php
 				$get_slides = "SELECT * FROM slider LIMIT 0,1";
 				$run_slides = mysqli_query($con, $get_slides);
 
@@ -115,7 +115,7 @@ include_once "includes/db.php"
 					<div class="carousel-item active">
 						<img class="d-block w-100 h-25" src="admin_area/slides_images/<?=$slide_img;?>" alt="<?=$slide_name;?>">
 					</div>
-				<?php  
+				<?php
 				endwhile;
 
 				$get_slides2 = "SELECT * FROM slider LIMIT 1,3";
@@ -125,14 +125,14 @@ include_once "includes/db.php"
 					$slide_name2 = $row_slides2['slider_name'];
 					$slide_img2 = $row_slides2['slider_img'];
 				?>
-					
+
 				<div class="carousel-item">
 					<img class="d-block w-100 h-25" src="admin_area/slides_images/<?=$slide_img2;?>" alt="<?=$slide_name2;?>">
 				</div>
 
-				<?php  
+				<?php
 				endwhile;
-				?>	
+				?>
 					<!-- <div class="carousel-item active">
 						<img class="d-block w-100 h-25" src="admin_area/slides_images/slide1.jpg" alt="First slide">
 					</div>
@@ -376,10 +376,10 @@ include_once "includes/db.php"
 						</div> <!-- text ends -->
 					</div> <!-- product ends -->
 				</div> <!-- col-sm-4 col-sm-6 single ends -->
-			
+
 			</div> <!-- row ends -->
 		</div><!-- container ends -->
-		
+
 		<?php include_once "includes/footer.php"; ?>
 
 		<!-- Optional JavaScript -->
